@@ -400,6 +400,7 @@
  text-align: center;
  align-items: center; 
  position: relative;
+ border-radius: 10px;
 }
 .my-services> main> div:nth-child(1){
   background: rgb(9,105,121);
