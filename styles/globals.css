@@ -319,10 +319,12 @@
   background: hsl(209, 53%, 22%);
   background-size: cover;
   position: relative;
-  z-index: -2;
+  z-index: 102;
 }
 .my-projects-page> main> a:hover{
-  transform: scale(1.5);
+  transform: scale(1.05);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
 }
 .my-projects-page> main> a::before{
   content: '';
