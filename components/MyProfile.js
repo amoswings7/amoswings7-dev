@@ -5,34 +5,34 @@ export default function MyProfile() {
         <section className='my-projects-page'>
             <h1>My Projects</h1>
             <main>
-                <a href='https://amoswings7.github.io/react-weather-app/' target='_blank'>
+                <a href='https://amoswings7.github.io/react-weather-app/' target='_blank' rel="noreferrer">
                     <h2>WEATHER APP</h2>
                     <p>REACT</p>
                     <p>CSS</p>
                     <p>HTML</p>
                     <p>JAVASCRIPT</p>
                 </a>
-                <a href='https://amoswings7.github.io/react-calculator/' target='_blank'>
+                <a href='https://amoswings7.github.io/react-calculator/' target='_blank' rel="noreferrer">
                     <h2>CALCULATOR</h2>
                     <p>REACT</p>
                     <p>CSS</p>
                     <p>HTML</p>
                     <p>JAVASCRIPT</p>
                 </a>
-                <a href='https://amoswings7.github.io/Tic-Tac-Toe-AI-game/' target='_blank'>
+                <a href='https://amoswings7.github.io/Tic-Tac-Toe-AI-game/' rel="noreferrer" target='_blank'>
                     <h2>AI TIC-TAC-TOE</h2>
                     <p>CSS</p>
                     <p>HTML</p>
                     <p>JAVASCRIPT</p>
                 </a>
-                <a href='https://amoswings7.github.io/react-todo-app/' target='_blank'>
+                <a href='https://amoswings7.github.io/react-todo-app/' target='_blank' rel="noreferrer">
                     <h2>TODO APP</h2>
                     <p>REACT</p>
                     <p>CSS</p>
                     <p>HTML</p>
                     <p>JAVASCRIPT</p>
                 </a>
-                <a href='http://aw7-shopping-lister.herokuapp.com/#' target='_blank'>
+                <a href='http://aw7-shopping-lister.herokuapp.com/#' target='_blank' rel="noreferrer">
                     <h2>SHOPPING LIST APP</h2>
                     <p>REACT</p>
                     <p>CSS</p>
