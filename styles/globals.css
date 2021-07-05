@@ -288,9 +288,6 @@
 
 
 /* my projects section */
-.my-projects-page{
-
-}
 .my-projects-page main{
   display: flex;
   flex-flow: row wrap;
@@ -307,7 +304,8 @@
 }
 .my-projects-page> main> a{
   display: flex;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 400px;
   flex-flow: column nowrap;
   justify-content: center;
@@ -389,8 +387,8 @@
   max-width: 1200px;
 }
 .my-services> main> div{
- height: 300px;
- width: 300px;
+ height: 280px;
+ width: 280px;
  padding: 10px;
  margin: auto;
  display: flex;
@@ -433,7 +431,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: scale(1.2);
+  transform: scale(1);
   width: 100%;
   height: 100%;
   filter: blur(20px);
@@ -453,7 +451,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   text-align: center;
@@ -472,7 +470,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   text-align: center;
@@ -490,7 +488,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   text-align: center;
@@ -502,7 +500,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: scale(1.17);
+  transform: scale(1);
   width: 100%;
   height: 100%;
   filter: blur(20px);
@@ -515,7 +513,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: scale(1.2);
+  transform: scale(1);
   filter: blur(20px);
   width: 100%;
   height: 100%;
