@@ -561,7 +561,9 @@
 .form{
   background: #1B3A57;
   color: white;
-  min-width:500px ;
+  width: calc(100% - 20px);
+  min-width: 280px;
+  max-width:500px ;
   padding: 20px;
 }
 .form> label{
