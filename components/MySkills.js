@@ -15,7 +15,12 @@ export default function MySkills() {
                     <p>CSS</p>
                 </div>
                 <div className='comment'>
-                    
+                    <p>
+                        These are skills that I can say I'm very fluent and good at. As you might notice I'm pretty much into Javascript ecosystem and I really love Javascript
+                        <br/>
+                        <br/>
+                        Even though I'm in love with Javascript I'm always learning and in the future I will add more skills to my belt.
+                    </p>
                 </div>
                 <div>
                     <Image  alt='techonlogy langauage' width='150' height='150' src='/skills/javascript-logo.png'/>
@@ -33,11 +38,11 @@ export default function MySkills() {
                     <Image  alt='techonlogy langauage' width='150' height='150' src='/skills/nodejs-logo.png'/>
                     <p>NODEJS</p>
                 </div>
-                <div>
+                <div className='grid-child-1'>
                     <Image  alt='technology langaugge' width='150' height='150' src='/skills/mysql-logo.png'/>
                     <p>MYSQL</p>
                 </div>
-                <div>
+                <div className='grid-child-2'>
                     <Image  alt='techonlogy langauage' width='150' height='150' src='/skills/mongodb-logo.png'/>
                     <p>MONGODB</p>
                 </div>
