@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>Amos Makupe- Web developer</title>
+        <title>Amos Makupe Web developer</title>
         <meta name="description" content="Amos Makupe is a junior web developer who works on both frontend and backend of web applications" />
         <meta name='keywords' content='Amos Makupe, Junior web developer, portfolio'/>
         <link rel="icon" href="/favicon.ico" />
