@@ -7,6 +7,7 @@ import MyProfile from '../components/MyProfile'
 import MyServices from '../components/MyServices'
 
 export default function Home() {
+
   return (
     <main>
       <Head>
@@ -15,7 +16,7 @@ export default function Home() {
         <meta name='keywords' content='Amos Makupe, Junior web developer, portfolio'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar name={{className:'navbar'}}/>
+      <Navbar name={{className:'navbar'}} />
       <WelcomePage/>
       <IntroSection/>
       <MySkills/>

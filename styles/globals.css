@@ -10,7 +10,7 @@
   background-color: royalblue;
   height: 100vh;
   width: 100vw;
-  background: url('/mobile-image.jpg');
+  background: url('../public/mobile-image.jpg');
   background-size: cover;
   position: relative;
   z-index: 0;
@@ -45,12 +45,12 @@
   align-items: center;
   z-index: 100;
 }
-.main-text> h1{
+.main-text h1{
   text-align: center;
   color: white;
   margin-bottom: 30px;
 }
-.main-text> h1> .name{
+.main-text h1> .name{
   text-shadow: 0 0 10px #fff,
               0 0 20px #fff,
               0 0 40px #fff,
@@ -58,7 +58,7 @@
               0 0 120px #fff;
 
 }
-.main-text> button{
+.main-text button{
   width: 250px;
   height: 50px;
   font-size: 20px;
@@ -79,7 +79,7 @@
               0 0 16px #00ccff, 
               0 0 32px #00ccff;
 }
-.main-text> button:hover{
+.main-text button:hover{
   text-shadow: 0 0 10px #fff,
   0 0 20px #fff,
   0 0 30px #fff,
@@ -252,36 +252,38 @@
 .my-skills-page{
   background: #1B3A57;
   color: white;
-  height: fit-content;
+  min-height:100vh;
   width: 100vw;
   padding: 20px;
 }
 .my-skills-page> h1{
+  display: flex;
   text-align: center;
   width: 100%;
-  padding:10px;
-  margin-bottom: 20px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
 }
 .my-skills-page .technologies{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  /* grid-template-rows:repeat(8,200px) ; */;
-  grid-row-gap: 16px;
-  justify-content: center;
+  display: flex;
+  min-height: calc(100vh - 100px);
+  max-width:1000px ;
+  flex-flow:row wrap;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+  align-content: center;
 }
-.technologies> div{
-  width: 100%;
-  height: 100%;
+.technologies div{
+  width: 170px;
+  height: 170px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items:center;
+  margin-bottom: 20px;
 }
-.technologies img{
-  width: 150px;
-  height: 150px;
-  margin-bottom: 10px;
-}
+
 .technologies .comment{
   display: none;
 }
@@ -338,6 +340,7 @@
 }
 .my-projects-page> main> a> h2{
   margin-bottom: 20px;
+  text-align: center;
 }
 .my-projects-page> main> a> p{
   margin-bottom: 10px;
@@ -359,7 +362,7 @@
   background-size: cover;
 }
 .my-projects-page> main> a:nth-child(5){
-  background:url('/projects/weather-app.jpg');
+  background:url('/projects/pharmacy.png');
   background-size: cover;
 }
 
@@ -565,6 +568,7 @@
   min-width: 280px;
   max-width:500px ;
   padding: 20px;
+  margin-top: 50px;
 }
 .form> label{
   width: 100%;

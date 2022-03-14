@@ -25,16 +25,16 @@ export default function MyProfile() {
                     <p>HTML</p>
                     <p>JAVASCRIPT</p>
                 </a>
-                <a href='https://amoswings7.github.io/react-todo-app/' target='_blank' rel="noreferrer">
-                    <h2>TODO APP</h2>
-                    <p>REACT</p>
+                <a href='https://pharmacy-nextjs.vercel.app/' target='_blank' rel="noreferrer">
+                    <h2>MEDICATION APP</h2>
+                    <p>NEXT.JS</p>
                     <p>CSS</p>
                     <p>HTML</p>
-                    <p>JAVASCRIPT</p>
+                    <p>NODE.JS</p>
                 </a>
-                <a href='http://aw7-shopping-lister.herokuapp.com/#' target='_blank' rel="noreferrer">
-                    <h2>SHOPPING LIST APP</h2>
-                    <p>REACT</p>
+                <a href='https://tmn-website-c6njmwb77-amoswings7.vercel.app/' target='_blank' rel="noreferrer">
+                    <h2>HOUSE RENOVATION SERVICE APP</h2>
+                    <p>NEXT.JS</p>
                     <p>CSS</p>
                     <p>HTML</p>
                     <p>JAVASCRIPT</p>
