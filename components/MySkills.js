@@ -27,8 +27,8 @@ export default function MySkills() {
             <h1>MY SKILLS THAT I’M FLUENT IN {scrollPosition}</h1>
             {scrollPosition && <main className='technologies'>
                 {skillsObject.map(skill => (
-                    <div>
-                        <Image  alt={skill.alt} width={150} height={150} src={skill.src}/>
+                    <div key={(Math.random()*10000)*(Math.random()*10000)}>
+                        <Image priority alt={skill.alt} width={150} height={150} src={skill.src}/>
                         <p>{skill.name}</p>
                     </div>
                 ))}
